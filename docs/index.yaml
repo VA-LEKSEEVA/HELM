@@ -3,7 +3,7 @@ entries:
   podinfo:
   - apiVersion: v2
     appVersion: 6.5.0
-    created: "2026-05-25T16:48:13.277821386Z"
+    created: "2026-05-25T16:59:52.38856323Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -29,7 +29,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 16.4.0
-    created: "2026-05-25T16:48:13.288957391Z"
+    created: "2026-05-25T16:59:52.394200899Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -58,4 +58,4 @@ entries:
     urls:
     - https://va-lekseeva.github.io/HELM/postgresql-15.5.38.tgz
     version: 15.5.38
-generated: "2026-05-25T16:48:13.215946098Z"
+generated: "2026-05-25T16:59:52.368738894Z"
