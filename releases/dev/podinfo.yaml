@@ -1,0 +1,21 @@
+replicaCount: 1
+image:
+  pullPolicy: Always
+  tag: ""
+resources:
+  limits:
+    cpu: 100m
+    memory: 64Mi
+  requests:
+    cpu: 50m
+    memory: 32Mi
+podinfo:
+  level: debug
+  message: "DEV environment"
+  ui:
+    color: "#ff6b6b"
+ingress:
+  enabled: true
+  host: podinfo-dev.local
+auth:
+  password: ""   # не храним пароль здесь
